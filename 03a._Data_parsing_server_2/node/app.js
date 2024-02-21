@@ -1,11 +1,38 @@
-import express from "express";
+import express from "express"
 import fs from 'fs';
 import yaml from 'js-yaml'; 
 
-const app = express();
-const dataHere = [];
 
-app.get("/xml", (req, res) => {
+const app = express();
+
+const PORT = 8086;
+app.listen(PORT, () => console.log("Server is running on port" + PORT))
+
+
+app.get("/restFastAPI", async (req, res) => {
+    const response = await fetch("127.0.0.1:8000/fastapi") //Ikke brug localhost, men brug http eller 127 adresse.
+    const result = await response.json()
+    res.send ({result}) 
+});
+/*
+app.get("/restFastAPI/:param", async (req, res) => {
+    const param = req.params.param;
+    const url = `127.0.0.1:8000/fastapi/${param}`; // Modify the URL with the parameter
+
+    try {
+        const response = await fetch(url);
+        const result = await response.json();
+        res.send({ result });
+    } catch (error) {
+        console.error(`Error fetching data: ${error.message}`);
+        res.status(500).send('Internal Server Error');
+    }
+});
+*/
+
+
+
+app.get("/expressdata_xml", (req, res) => {
   const filePath = '\my_files\\me.xml';
 
   // Read the XML file
@@ -25,7 +52,7 @@ app.get("/xml", (req, res) => {
   });
 });
 
-app.get('/yaml', (req, res) => {
+app.get('/expressdata_yaml', (req, res) => {
   const filePath = '\my_files\\me.yaml';
 
   // Read the YAML file
@@ -48,7 +75,7 @@ app.get('/yaml', (req, res) => {
   });
 });
 
-app.get('/txt', (req, res) => {
+app.get('/expressdata_txt', (req, res) => {
   const filePath = '\my_files\\me.txt';
 
   // Read the TXT file
@@ -68,7 +95,7 @@ app.get('/txt', (req, res) => {
   });
 });
 
-app.get('/json', (req, res) => {
+app.get('/expressdata_json', (req, res) => {
   const filePath = '\my_files\\me.json';
 
   // Read the JSON file
@@ -85,7 +112,7 @@ app.get('/json', (req, res) => {
   });
 });
 
-app.get('/csv', (req, res) => {
+app.get('/expressdata_csv', (req, res) => {
   const filePath = '\my_files\\me.csv';
 
   // Read the CSV file
@@ -105,13 +132,5 @@ app.get('/csv', (req, res) => {
   });
 });
 
-app.get("/otherRoute", (req, res) => {
-  res.send({ message: "This is the other route" });
-});
 
-app.post("/postrequest", (req, res) => {
-  res.send({ message: "You made a post request" });
-});
 
-const PORT = 8080;
-app.listen(PORT, () => console.log("Server is running on port", PORT));
