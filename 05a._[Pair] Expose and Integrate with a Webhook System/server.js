@@ -72,9 +72,10 @@ app.post('/payment_deleted', async (req, res) => {
 app.get('/ping/:clientUrl', (req, res) => {
     const { clientUrl } = req.params;
     const subscriptions = {};
-
+  console.log('clientUrl', clientUrl);
+    console.log('subscribers', subscribers);
     for (let endpoint in subscribers) {
-        subscriptions[endpoint] = subscribers[endpoint].includes(clientUrl);
+        subscriptions[endpoint] = subscribers[endpoint].some(subscriber => subscriber.startsWith(`http://${clientUrl}`));
     }
 
     res.status(200).send(subscriptions);
