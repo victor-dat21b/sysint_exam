@@ -1,0 +1,8 @@
+Vi har lavet code documentation på C# projektet til carstorage.
+Der er blevet brugt DocFX, med XML comments.
+GhostDoc er også brugt, den populere summeries ud fra navnet på ens variabler.
+
+DocFX gør at man kan hoste en side hvor man kan finde den dokumentation der er blevet lavet.
+
+Repository vi har lavet dokumentation på:
+https://github.com/dls-electradrive/CarStorageAPI
