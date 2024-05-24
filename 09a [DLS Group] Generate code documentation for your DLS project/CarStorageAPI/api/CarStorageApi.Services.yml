@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: CarStorageApi.Services
+  commentId: N:CarStorageApi.Services
+  id: CarStorageApi.Services
+  children:
+  - CarStorageApi.Services.CarService
+  - CarStorageApi.Services.ICarService
+  - CarStorageApi.Services.RabbitMQService
+  langs:
+  - csharp
+  - vb
+  name: CarStorageApi.Services
+  nameWithType: CarStorageApi.Services
+  fullName: CarStorageApi.Services
+  type: Namespace
+  assemblies:
+  - CarStorageApi
+references:
+- uid: CarStorageApi.Services.CarService
+  commentId: T:CarStorageApi.Services.CarService
+  href: CarStorageApi.Services.CarService.html
+  name: CarService
+  nameWithType: CarService
+  fullName: CarStorageApi.Services.CarService
+- uid: CarStorageApi.Services.ICarService
+  commentId: T:CarStorageApi.Services.ICarService
+  parent: CarStorageApi.Services
+  href: CarStorageApi.Services.ICarService.html
+  name: ICarService
+  nameWithType: ICarService
+  fullName: CarStorageApi.Services.ICarService
+- uid: CarStorageApi.Services.RabbitMQService
+  commentId: T:CarStorageApi.Services.RabbitMQService
+  href: CarStorageApi.Services.RabbitMQService.html
+  name: RabbitMQService
+  nameWithType: RabbitMQService
+  fullName: CarStorageApi.Services.RabbitMQService
+- uid: CarStorageApi.Services
+  commentId: N:CarStorageApi.Services
+  href: CarStorageApi.html
+  name: CarStorageApi.Services
+  nameWithType: CarStorageApi.Services
+  fullName: CarStorageApi.Services
+  spec.csharp:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Services
+    name: Services
+    href: CarStorageApi.Services.html
+  spec.vb:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Services
+    name: Services
+    href: CarStorageApi.Services.html

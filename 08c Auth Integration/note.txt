@@ -1,0 +1,37 @@
+Brug node --env-file=.env app.js til at køre applikationen.
+Efter node 18 behøver man ikke en package såsom dotenv for at hente sine environment variables. Flagget jeg bruger er implementeret i node version 20.
+
+Når jeg har logget ind med google (vict702k) husk at ryde cookies bagefter, eller viser den ikke login steppet.
+
+
+
+
+
+
+Mere info:
+The --env-file flag is a feature introduced in Node.js 20. 
+It allows you to specify a file from which to load environment variables when running your Node.js application. 
+This means you can define environment variables in a .env file, 
+and Node.js will read these variables into the environment when starting your application.
+
+Here's what the --env-file flag does:
+Loads Environment Variables:
+The flag reads key-value pairs from the specified .env file and sets them as environment variables for the Node.js process. 
+This allows you to configure your application's environment settings without hardcoding them into your code.
+
+Applies Environment Variables:
+Once loaded, these environment variables are accessible in your Node.js application via process.env. 
+This is useful for managing configuration settings such as database credentials, API keys, and other sensitive information.
+
+By using the --env-file flag, you leverage built-in Node.js functionality to manage environment variables efficiently and securely.
+
+
+
+
+Om callback:
+app.get('/callback'): Defines a route handler for the /callback path, which Auth0 will redirect to after authentication.
+client.callbackParams(req): Extracts the callback parameters from the request.
+client.callback: Exchanges the authorization code received from Auth0 for tokens (access token, ID token, etc.).
+client.userinfo(tokenSet.access_token): Retrieves user information from Auth0 using the access token.
+res.send(User info: ${JSON.stringify(userInfo)}): Sends the user information back as a response.
+catch (error): Handles any errors that occur during the callback processing and sends an error message.

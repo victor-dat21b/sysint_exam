@@ -1,0 +1,2 @@
+Vi starter serveren først med node server.js
+Derefter åbner vi clients index.html med "Go Live" extension. Ses i nedre højre hjørne.

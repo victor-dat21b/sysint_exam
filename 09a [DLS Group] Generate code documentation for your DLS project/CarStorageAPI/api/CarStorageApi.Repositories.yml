@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: CarStorageApi.Repositories
+  commentId: N:CarStorageApi.Repositories
+  id: CarStorageApi.Repositories
+  children:
+  - CarStorageApi.Repositories.CarRepository
+  - CarStorageApi.Repositories.ICarRepository
+  langs:
+  - csharp
+  - vb
+  name: CarStorageApi.Repositories
+  nameWithType: CarStorageApi.Repositories
+  fullName: CarStorageApi.Repositories
+  type: Namespace
+  assemblies:
+  - CarStorageApi
+references:
+- uid: CarStorageApi.Repositories.CarRepository
+  commentId: T:CarStorageApi.Repositories.CarRepository
+  href: CarStorageApi.Repositories.CarRepository.html
+  name: CarRepository
+  nameWithType: CarRepository
+  fullName: CarStorageApi.Repositories.CarRepository
+- uid: CarStorageApi.Repositories.ICarRepository
+  commentId: T:CarStorageApi.Repositories.ICarRepository
+  parent: CarStorageApi.Repositories
+  href: CarStorageApi.Repositories.ICarRepository.html
+  name: ICarRepository
+  nameWithType: ICarRepository
+  fullName: CarStorageApi.Repositories.ICarRepository
+- uid: CarStorageApi.Repositories
+  commentId: N:CarStorageApi.Repositories
+  href: CarStorageApi.html
+  name: CarStorageApi.Repositories
+  nameWithType: CarStorageApi.Repositories
+  fullName: CarStorageApi.Repositories
+  spec.csharp:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Repositories
+    name: Repositories
+    href: CarStorageApi.Repositories.html
+  spec.vb:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Repositories
+    name: Repositories
+    href: CarStorageApi.Repositories.html

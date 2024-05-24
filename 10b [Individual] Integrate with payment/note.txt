@@ -1,0 +1,12 @@
+Kør med node index.js.
+Gå til localhost:3000.
+
+Card number: 4242 4242 4242 4242
+Expiration date: Any future date
+CVC: Any 3-digit number
+Zip: 43444
+
+
+
+Til selv:
+Html siden bliver serveret via "/" endpointet. Den kalder derefter i sit script de andre endpoints. Der kører kun 1 server her i denne opgave.

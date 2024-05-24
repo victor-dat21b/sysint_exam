@@ -1,0 +1,29 @@
+Kør med node app.js. Åbner på port 8080.
+App.js serverer homepage med den statiske html fil fra public mappen.
+Scripted i html script sektionen bliver kørt og kalder enpointet på app.js serveren. Den opretter en query der indeholder "hello"
+
+
+App.js Graph:
+Defining the GraphQL Schema:
+
+const schema = new GraphQLSchema({
+  query: new GraphQLObjectType({
+    name: 'Query',
+    fields: {
+      hello: {
+        type: GraphQLString,
+        resolve: () => "World"
+      },
+    },
+  }),
+});
+
+GraphQLSchema: Defines the schema for the GraphQL server.
+GraphQLObjectType: Defines a type of object that can be queried.
+hello field: A simple field that returns the string "World" when queried.
+
+
+Creating the GraphQL Handler
+
+app.all('/graphql', createHandler({ schema }));
+Sets up a handler for all HTTP methods on the /graphql endpoint, using the defined schema.

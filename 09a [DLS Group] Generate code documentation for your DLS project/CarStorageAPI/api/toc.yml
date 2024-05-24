@@ -1,0 +1,47 @@
+### YamlMime:TableOfContent
+items:
+- uid: CarStorageApi.Controllers
+  name: CarStorageApi.Controllers
+  items:
+  - uid: CarStorageApi.Controllers.CarController
+    name: CarController
+  - uid: CarStorageApi.Controllers.ICarController
+    name: ICarController
+- uid: CarStorageApi.Data
+  name: CarStorageApi.Data
+  items:
+  - uid: CarStorageApi.Data.CarContext
+    name: CarContext
+- uid: CarStorageApi.Migrations
+  name: CarStorageApi.Migrations
+  items:
+  - uid: CarStorageApi.Migrations.CreateCarandPartTable
+    name: CreateCarandPartTable
+  - uid: CarStorageApi.Migrations.addedDatetoCarandPart
+    name: addedDatetoCarandPart
+  - uid: CarStorageApi.Migrations.addedPartDescription
+    name: addedPartDescription
+- uid: CarStorageApi.Models
+  name: CarStorageApi.Models
+  items:
+  - uid: CarStorageApi.Models.Car
+    name: Car
+  - uid: CarStorageApi.Models.Part
+    name: Part
+- uid: CarStorageApi.Repositories
+  name: CarStorageApi.Repositories
+  items:
+  - uid: CarStorageApi.Repositories.CarRepository
+    name: CarRepository
+  - uid: CarStorageApi.Repositories.ICarRepository
+    name: ICarRepository
+- uid: CarStorageApi.Services
+  name: CarStorageApi.Services
+  items:
+  - uid: CarStorageApi.Services.CarService
+    name: CarService
+  - uid: CarStorageApi.Services.ICarService
+    name: ICarService
+  - uid: CarStorageApi.Services.RabbitMQService
+    name: RabbitMQService
+memberLayout: SamePage

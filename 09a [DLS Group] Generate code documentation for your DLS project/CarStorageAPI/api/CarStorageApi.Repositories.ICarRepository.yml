@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: CarStorageApi.Repositories.ICarRepository
+  commentId: T:CarStorageApi.Repositories.ICarRepository
+  id: ICarRepository
+  parent: CarStorageApi.Repositories
+  children:
+  - CarStorageApi.Repositories.ICarRepository.GetCars
+  langs:
+  - csharp
+  - vb
+  name: ICarRepository
+  nameWithType: ICarRepository
+  fullName: CarStorageApi.Repositories.ICarRepository
+  type: Interface
+  source:
+    remote:
+      path: Repositories/ICarRepository.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: ICarRepository
+    path: Repositories/ICarRepository.cs
+    startLine: 7
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Repositories
+  summary: ''
+  example: []
+  syntax:
+    content: public interface ICarRepository
+    content.vb: Public Interface ICarRepository
+- uid: CarStorageApi.Repositories.ICarRepository.GetCars
+  commentId: M:CarStorageApi.Repositories.ICarRepository.GetCars
+  id: GetCars
+  parent: CarStorageApi.Repositories.ICarRepository
+  langs:
+  - csharp
+  - vb
+  name: GetCars()
+  nameWithType: ICarRepository.GetCars()
+  fullName: CarStorageApi.Repositories.ICarRepository.GetCars()
+  type: Method
+  source:
+    remote:
+      path: Repositories/ICarRepository.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: GetCars
+    path: Repositories/ICarRepository.cs
+    startLine: 13
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Repositories
+  summary: Gets the cars.
+  example: []
+  syntax:
+    content: List<Car> GetCars()
+    return:
+      type: System.Collections.Generic.List{CarStorageApi.Models.Car}
+      description: ''
+    content.vb: Function GetCars() As List(Of Car)
+  overload: CarStorageApi.Repositories.ICarRepository.GetCars*
+references:
+- uid: CarStorageApi.Repositories
+  commentId: N:CarStorageApi.Repositories
+  href: CarStorageApi.html
+  name: CarStorageApi.Repositories
+  nameWithType: CarStorageApi.Repositories
+  fullName: CarStorageApi.Repositories
+  spec.csharp:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Repositories
+    name: Repositories
+    href: CarStorageApi.Repositories.html
+  spec.vb:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Repositories
+    name: Repositories
+    href: CarStorageApi.Repositories.html
+- uid: CarStorageApi.Repositories.ICarRepository.GetCars*
+  commentId: Overload:CarStorageApi.Repositories.ICarRepository.GetCars
+  href: CarStorageApi.Repositories.ICarRepository.html#CarStorageApi_Repositories_ICarRepository_GetCars
+  name: GetCars
+  nameWithType: ICarRepository.GetCars
+  fullName: CarStorageApi.Repositories.ICarRepository.GetCars
+- uid: System.Collections.Generic.List{CarStorageApi.Models.Car}
+  commentId: T:System.Collections.Generic.List{CarStorageApi.Models.Car}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Car>
+  nameWithType: List<Car>
+  fullName: System.Collections.Generic.List<CarStorageApi.Models.Car>
+  nameWithType.vb: List(Of Car)
+  fullName.vb: System.Collections.Generic.List(Of CarStorageApi.Models.Car)
+  name.vb: List(Of Car)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: CarStorageApi.Models.Car
+    name: Car
+    href: CarStorageApi.Models.Car.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CarStorageApi.Models.Car
+    name: Car
+    href: CarStorageApi.Models.Car.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

@@ -2,6 +2,7 @@
   "name": "06a._websocket",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "ws": "^8.16.0"
+    "ws": "^8.17.0"
   }
 }

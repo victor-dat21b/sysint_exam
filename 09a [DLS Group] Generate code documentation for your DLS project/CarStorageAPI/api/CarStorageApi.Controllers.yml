@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: CarStorageApi.Controllers
+  commentId: N:CarStorageApi.Controllers
+  id: CarStorageApi.Controllers
+  children:
+  - CarStorageApi.Controllers.CarController
+  - CarStorageApi.Controllers.ICarController
+  langs:
+  - csharp
+  - vb
+  name: CarStorageApi.Controllers
+  nameWithType: CarStorageApi.Controllers
+  fullName: CarStorageApi.Controllers
+  type: Namespace
+  assemblies:
+  - CarStorageApi
+references:
+- uid: CarStorageApi.Controllers.CarController
+  commentId: T:CarStorageApi.Controllers.CarController
+  href: CarStorageApi.Controllers.CarController.html
+  name: CarController
+  nameWithType: CarController
+  fullName: CarStorageApi.Controllers.CarController
+- uid: CarStorageApi.Controllers.ICarController
+  commentId: T:CarStorageApi.Controllers.ICarController
+  parent: CarStorageApi.Controllers
+  href: CarStorageApi.Controllers.ICarController.html
+  name: ICarController
+  nameWithType: ICarController
+  fullName: CarStorageApi.Controllers.ICarController
+- uid: CarStorageApi.Controllers
+  commentId: N:CarStorageApi.Controllers
+  href: CarStorageApi.html
+  name: CarStorageApi.Controllers
+  nameWithType: CarStorageApi.Controllers
+  fullName: CarStorageApi.Controllers
+  spec.csharp:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Controllers
+    name: Controllers
+    href: CarStorageApi.Controllers.html
+  spec.vb:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Controllers
+    name: Controllers
+    href: CarStorageApi.Controllers.html

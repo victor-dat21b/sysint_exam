@@ -1,0 +1,11 @@
+import express from 'express';
+import fs from 'fs';
+import { parse } from 'csv-parse/sync'; // CSV parser
+import { parseString } from 'xml2js';
+import yaml from 'js-yaml';
+
+fs: This is a built-in Node.js module and necessary for reading files.
+papaparse: This is an external library that simplifies CSV parsing.
+csv-parse: This is also an external library and part of the csv package that provides flexible CSV parsing capabilities.
+xml2js: This is an external library for converting XML to JavaScript objects.
+js-yaml: This is an external library for parsing YAML files.

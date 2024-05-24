@@ -1,0 +1,741 @@
+### YamlMime:ManagedReference
+items:
+- uid: CarStorageApi.Models.Car
+  commentId: T:CarStorageApi.Models.Car
+  id: Car
+  parent: CarStorageApi.Models
+  children:
+  - CarStorageApi.Models.Car.Color
+  - CarStorageApi.Models.Car.CreatedDate
+  - CarStorageApi.Models.Car.Id
+  - CarStorageApi.Models.Car.Name
+  - CarStorageApi.Models.Car.Part
+  - CarStorageApi.Models.Car.SoldDate
+  - CarStorageApi.Models.Car.Type
+  langs:
+  - csharp
+  - vb
+  name: Car
+  nameWithType: Car
+  fullName: CarStorageApi.Models.Car
+  type: Class
+  source:
+    remote:
+      path: Models/Car.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: Car
+    path: Models/Car.cs
+    startLine: 8
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public class Car
+    content.vb: Public Class Car
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CarStorageApi.Models.Car.Id
+  commentId: P:CarStorageApi.Models.Car.Id
+  id: Id
+  parent: CarStorageApi.Models.Car
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Car.Id
+  fullName: CarStorageApi.Models.Car.Id
+  type: Property
+  source:
+    remote:
+      path: Models/Car.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: Id
+    path: Models/Car.cs
+    startLine: 16
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Models
+  summary: Gets or sets the identifier.
+  example: []
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+      description: The identifier.
+    content.vb: Public Property Id As Guid
+  overload: CarStorageApi.Models.Car.Id*
+- uid: CarStorageApi.Models.Car.Name
+  commentId: P:CarStorageApi.Models.Car.Name
+  id: Name
+  parent: CarStorageApi.Models.Car
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Car.Name
+  fullName: CarStorageApi.Models.Car.Name
+  type: Property
+  source:
+    remote:
+      path: Models/Car.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: Name
+    path: Models/Car.cs
+    startLine: 23
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Models
+  summary: Gets or sets the name.
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The name.
+    content.vb: Public Property Name As String
+  overload: CarStorageApi.Models.Car.Name*
+- uid: CarStorageApi.Models.Car.Type
+  commentId: P:CarStorageApi.Models.Car.Type
+  id: Type
+  parent: CarStorageApi.Models.Car
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Car.Type
+  fullName: CarStorageApi.Models.Car.Type
+  type: Property
+  source:
+    remote:
+      path: Models/Car.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: Type
+    path: Models/Car.cs
+    startLine: 30
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Models
+  summary: Gets or sets the type.
+  example: []
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The type.
+    content.vb: Public Property Type As String
+  overload: CarStorageApi.Models.Car.Type*
+- uid: CarStorageApi.Models.Car.Color
+  commentId: P:CarStorageApi.Models.Car.Color
+  id: Color
+  parent: CarStorageApi.Models.Car
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: Car.Color
+  fullName: CarStorageApi.Models.Car.Color
+  type: Property
+  source:
+    remote:
+      path: Models/Car.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: Color
+    path: Models/Car.cs
+    startLine: 37
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Models
+  summary: Gets or sets the color.
+  example: []
+  syntax:
+    content: public string Color { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The color.
+    content.vb: Public Property Color As String
+  overload: CarStorageApi.Models.Car.Color*
+- uid: CarStorageApi.Models.Car.CreatedDate
+  commentId: P:CarStorageApi.Models.Car.CreatedDate
+  id: CreatedDate
+  parent: CarStorageApi.Models.Car
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: Car.CreatedDate
+  fullName: CarStorageApi.Models.Car.CreatedDate
+  type: Property
+  source:
+    remote:
+      path: Models/Car.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: CreatedDate
+    path: Models/Car.cs
+    startLine: 44
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Models
+  summary: Gets or sets the created date.
+  example: []
+  syntax:
+    content: public DateTime? CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+      description: The created date.
+    content.vb: Public Property CreatedDate As Date?
+  overload: CarStorageApi.Models.Car.CreatedDate*
+- uid: CarStorageApi.Models.Car.SoldDate
+  commentId: P:CarStorageApi.Models.Car.SoldDate
+  id: SoldDate
+  parent: CarStorageApi.Models.Car
+  langs:
+  - csharp
+  - vb
+  name: SoldDate
+  nameWithType: Car.SoldDate
+  fullName: CarStorageApi.Models.Car.SoldDate
+  type: Property
+  source:
+    remote:
+      path: Models/Car.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: SoldDate
+    path: Models/Car.cs
+    startLine: 51
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Models
+  summary: Gets or sets the sold date.
+  example: []
+  syntax:
+    content: public DateTime? SoldDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+      description: The sold date.
+    content.vb: Public Property SoldDate As Date?
+  overload: CarStorageApi.Models.Car.SoldDate*
+- uid: CarStorageApi.Models.Car.Part
+  commentId: P:CarStorageApi.Models.Car.Part
+  id: Part
+  parent: CarStorageApi.Models.Car
+  langs:
+  - csharp
+  - vb
+  name: Part
+  nameWithType: Car.Part
+  fullName: CarStorageApi.Models.Car.Part
+  type: Property
+  source:
+    remote:
+      path: Models/Car.cs
+      branch: main
+      repo: https://github.com/Ceazer101/BilLagerAPI.git
+    id: Part
+    path: Models/Car.cs
+    startLine: 58
+  assemblies:
+  - CarStorageApi
+  namespace: CarStorageApi.Models
+  summary: Gets or sets the part.
+  example: []
+  syntax:
+    content: public virtual List<Part> Part { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{CarStorageApi.Models.Part}
+      description: The part.
+    content.vb: Public Overridable Property Part As List(Of Part)
+  overload: CarStorageApi.Models.Car.Part*
+references:
+- uid: CarStorageApi.Models
+  commentId: N:CarStorageApi.Models
+  href: CarStorageApi.html
+  name: CarStorageApi.Models
+  nameWithType: CarStorageApi.Models
+  fullName: CarStorageApi.Models
+  spec.csharp:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Models
+    name: Models
+    href: CarStorageApi.Models.html
+  spec.vb:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Models
+    name: Models
+    href: CarStorageApi.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CarStorageApi.Models.Car.Id*
+  commentId: Overload:CarStorageApi.Models.Car.Id
+  href: CarStorageApi.Models.Car.html#CarStorageApi_Models_Car_Id
+  name: Id
+  nameWithType: Car.Id
+  fullName: CarStorageApi.Models.Car.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: CarStorageApi.Models.Car.Name*
+  commentId: Overload:CarStorageApi.Models.Car.Name
+  href: CarStorageApi.Models.Car.html#CarStorageApi_Models_Car_Name
+  name: Name
+  nameWithType: Car.Name
+  fullName: CarStorageApi.Models.Car.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CarStorageApi.Models.Car.Type*
+  commentId: Overload:CarStorageApi.Models.Car.Type
+  href: CarStorageApi.Models.Car.html#CarStorageApi_Models_Car_Type
+  name: Type
+  nameWithType: Car.Type
+  fullName: CarStorageApi.Models.Car.Type
+- uid: CarStorageApi.Models.Car.Color*
+  commentId: Overload:CarStorageApi.Models.Car.Color
+  href: CarStorageApi.Models.Car.html#CarStorageApi_Models_Car_Color
+  name: Color
+  nameWithType: Car.Color
+  fullName: CarStorageApi.Models.Car.Color
+- uid: CarStorageApi.Models.Car.CreatedDate*
+  commentId: Overload:CarStorageApi.Models.Car.CreatedDate
+  href: CarStorageApi.Models.Car.html#CarStorageApi_Models_Car_CreatedDate
+  name: CreatedDate
+  nameWithType: Car.CreatedDate
+  fullName: CarStorageApi.Models.Car.CreatedDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime?
+  nameWithType: DateTime?
+  fullName: System.DateTime?
+  nameWithType.vb: Date?
+  fullName.vb: Date?
+  name.vb: Date?
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  spec.vb:
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CarStorageApi.Models.Car.SoldDate*
+  commentId: Overload:CarStorageApi.Models.Car.SoldDate
+  href: CarStorageApi.Models.Car.html#CarStorageApi_Models_Car_SoldDate
+  name: SoldDate
+  nameWithType: Car.SoldDate
+  fullName: CarStorageApi.Models.Car.SoldDate
+- uid: CarStorageApi.Models.Car.Part*
+  commentId: Overload:CarStorageApi.Models.Car.Part
+  href: CarStorageApi.Models.Car.html#CarStorageApi_Models_Car_Part
+  name: Part
+  nameWithType: Car.Part
+  fullName: CarStorageApi.Models.Car.Part
+- uid: System.Collections.Generic.List{CarStorageApi.Models.Part}
+  commentId: T:System.Collections.Generic.List{CarStorageApi.Models.Part}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Part>
+  nameWithType: List<Part>
+  fullName: System.Collections.Generic.List<CarStorageApi.Models.Part>
+  nameWithType.vb: List(Of Part)
+  fullName.vb: System.Collections.Generic.List(Of CarStorageApi.Models.Part)
+  name.vb: List(Of Part)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: CarStorageApi.Models.Part
+    name: Part
+    href: CarStorageApi.Models.Part.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CarStorageApi.Models.Part
+    name: Part
+    href: CarStorageApi.Models.Part.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

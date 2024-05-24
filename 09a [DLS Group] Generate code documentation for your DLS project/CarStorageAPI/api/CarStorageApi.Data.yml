@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: CarStorageApi.Data
+  commentId: N:CarStorageApi.Data
+  id: CarStorageApi.Data
+  children:
+  - CarStorageApi.Data.CarContext
+  langs:
+  - csharp
+  - vb
+  name: CarStorageApi.Data
+  nameWithType: CarStorageApi.Data
+  fullName: CarStorageApi.Data
+  type: Namespace
+  assemblies:
+  - CarStorageApi
+references:
+- uid: CarStorageApi.Data.CarContext
+  commentId: T:CarStorageApi.Data.CarContext
+  parent: CarStorageApi.Data
+  href: CarStorageApi.Data.CarContext.html
+  name: CarContext
+  nameWithType: CarContext
+  fullName: CarStorageApi.Data.CarContext
+- uid: CarStorageApi.Data
+  commentId: N:CarStorageApi.Data
+  href: CarStorageApi.html
+  name: CarStorageApi.Data
+  nameWithType: CarStorageApi.Data
+  fullName: CarStorageApi.Data
+  spec.csharp:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Data
+    name: Data
+    href: CarStorageApi.Data.html
+  spec.vb:
+  - uid: CarStorageApi
+    name: CarStorageApi
+    href: CarStorageApi.html
+  - name: .
+  - uid: CarStorageApi.Data
+    name: Data
+    href: CarStorageApi.Data.html

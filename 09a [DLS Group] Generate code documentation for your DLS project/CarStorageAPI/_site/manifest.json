@@ -1,0 +1,265 @@
+{
+  "source_base_path": "B:/Users/Bjorn/Desktop/pos/BilLagerAPI",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Controllers.CarController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Controllers.CarController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Controllers.ICarController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Controllers.ICarController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Data.CarContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Data.CarContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Migrations.CreateCarandPartTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Migrations.CreateCarandPartTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Migrations.addedDatetoCarandPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Migrations.addedDatetoCarandPart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Migrations.addedPartDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Migrations.addedPartDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Models.Car.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Models.Car.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Models.Part.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Models.Part.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Repositories.CarRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Repositories.CarRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Repositories.ICarRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Repositories.ICarRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Services.CarService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Services.CarService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Services.ICarService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Services.ICarService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Services.RabbitMQService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Services.RabbitMQService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarStorageApi.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarStorageApi.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

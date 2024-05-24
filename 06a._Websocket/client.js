@@ -1,5 +1,6 @@
-const WebSocket = require('ws');
-const express = require('express');
+import WebSocket from 'ws';
+import express from 'express';
+
 const app = express();
 const PORT = 3001; // Ensure this is different from the server's port
 
@@ -10,7 +11,8 @@ ws.on('open', () => {
 });
 
 ws.on('message', (data) => {
-    console.log('Message from server:', data);
+    const message = data.toString(); // Convert Buffer to string
+    console.log('Message from server:', message);
 });
 
 ws.on('close', () => {
@@ -22,8 +24,8 @@ ws.on('error', (error) => {
 });
 
 // HTTP server to receive commands and send messages to WebSocket server
-app.post('/send', express.text(), (req, res) => {
-    const message = req.body || 'Hello from Client!';
+app.get('/send', (req, res) => {
+    const message = 'Hello';
     if (ws.readyState === WebSocket.OPEN) {
         ws.send(message);
         res.send(`Message sent to WebSocket server: ${message}`);
@@ -35,3 +37,4 @@ app.post('/send', express.text(), (req, res) => {
 app.listen(PORT, () => {
     console.log(`Client HTTP server running on http://localhost:${PORT}`);
 });
+

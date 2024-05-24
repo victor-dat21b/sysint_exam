@@ -1,0 +1,28 @@
+Der var en mulighed for at slippe for at bruge ws til frontenden(websocket native js), men endte med at benytte det alligvel.
+Man kunne slippe for "ws" hvis man brugte det native WebSocket support der er i javascrip miljøet og selv manuelt håndterede websocket protokollen. Dette kræver dog ret meget arbejde.
+Til serveren ville jeg være nød til at bruge en node package grundet de yderligere instillinger der skulle configureres ved en websocket, såsom http osv.
+Brugte ikke socket.io da det er for stort til dette projekt størrelse og ville ikke give mening at bruge, derfor ws.
+
+
+Why http Module is Used
+Unified Server:
+By using the http module, you create a single server that can handle both HTTP and WebSocket connections. 
+This allows you to have endpoints for regular HTTP requests (like REST API endpoints) and WebSocket connections on the same server.
+
+Integration with Express:
+Express is an HTTP server framework. 
+When you create an Express app and then pass it to the http.createServer method, you’re essentially telling the HTTP server to use Express to handle HTTP requests.
+
+WebSocket Server Setup:
+The ws package can attach to an existing HTTP server. 
+This is useful because it allows the WebSocket server to coexist with your Express app. 
+The WebSocket server listens for upgrade requests (HTTP requests that upgrade to WebSocket connections) on the same server.
+
+Opsummeret:
+Jeg bruger http da jeg også vil håndtere regulere get og post request, altså når jeg laver mit trigger call til det endpoint. Hvis ikke jeg havde det ville jeg ikke have benyttet
+http modulet og kun have "ws". Kunne godt have gjort det uden http modulet, så skulle jeg bare have oprettet to service der kunne håndtere hver sin del altså post og ws.
+
+Kør programmet:
+Jeg starter serveren først og derefter clienten. Hav en bash terminal til server og en anden til client.
+Ved startup vil clienten forbinde til serveren.
+Brug endpoints såsom /send og /trigger i browseren til at trigger events og simulere at der sker noget på serveren eller clienten.

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: CarStorageApi.Migrations
+  commentId: N:CarStorageApi.Migrations
+  id: CarStorageApi.Migrations
+  children:
+  - CarStorageApi.Migrations.CreateCarandPartTable
+  - CarStorageApi.Migrations.addedDatetoCarandPart
+  - CarStorageApi.Migrations.addedPartDescription
+  langs:
+  - csharp
+  - vb
+  name: CarStorageApi.Migrations
+  nameWithType: CarStorageApi.Migrations
+  fullName: CarStorageApi.Migrations
+  type: Namespace
+  assemblies:
+  - CarStorageApi
+references:
+- uid: CarStorageApi.Migrations.CreateCarandPartTable
+  commentId: T:CarStorageApi.Migrations.CreateCarandPartTable
+  href: CarStorageApi.Migrations.CreateCarandPartTable.html
+  name: CreateCarandPartTable
+  nameWithType: CreateCarandPartTable
+  fullName: CarStorageApi.Migrations.CreateCarandPartTable
+- uid: CarStorageApi.Migrations.addedPartDescription
+  commentId: T:CarStorageApi.Migrations.addedPartDescription
+  href: CarStorageApi.Migrations.addedPartDescription.html
+  name: addedPartDescription
+  nameWithType: addedPartDescription
+  fullName: CarStorageApi.Migrations.addedPartDescription
+- uid: CarStorageApi.Migrations.addedDatetoCarandPart
+  commentId: T:CarStorageApi.Migrations.addedDatetoCarandPart
+  href: CarStorageApi.Migrations.addedDatetoCarandPart.html
+  name: addedDatetoCarandPart
+  nameWithType: addedDatetoCarandPart
+  fullName: CarStorageApi.Migrations.addedDatetoCarandPart

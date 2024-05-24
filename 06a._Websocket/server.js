@@ -1,10 +1,12 @@
-const WebSocket = require('ws');
-const express = require('express');
+import express from 'express';
+import { createServer } from 'http';
+import { WebSocketServer } from 'ws';
+
 const app = express();
 const PORT = 3000;
 
-const server = require('http').createServer(app);
-const wss = new WebSocket.Server({ server });
+const server = createServer(app);
+const wss = new WebSocketServer({ server });
 
 // Track connected WebSocket clients
 let clients = [];
@@ -21,7 +23,7 @@ wss.on('connection', (ws) => {
 });
 
 // HTTP endpoint to trigger an event
-app.post('/trigger', (req, res) => {
+app.get('/trigger', (req, res) => {
     clients.forEach(client => client.send('Event triggered'));
     res.send('Event triggered and message sent to all clients');
 });

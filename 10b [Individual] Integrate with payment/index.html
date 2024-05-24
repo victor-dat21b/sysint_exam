@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stripe Payment Integration</title>
+  <script src="https://js.stripe.com/v3/"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f7f7f7;
+    }
+    #payment-form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    #card-element {
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #6772e5;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #5469d4;
+    }
+  </style>
+</head>
+<body>
+  <form id="payment-form">
+    <h2>Complete Payment</h2>
+    <div id="card-element"></div>
+    <button type="submit">Pay</button>
+  </form>
+
+  <script>
+    let clientSecret;
+
+    // Fetch the publishable key from the server
+    fetch('/config')
+      .then(response => response.json())
+      .then(data => {
+        const stripe = Stripe(data.publishableKey);
+        const elements = stripe.elements();
+        const cardElement = elements.create('card');
+        cardElement.mount('#card-element');
+
+        const paymentForm = document.getElementById('payment-form');
+        paymentForm.addEventListener('submit', async (event) => {
+          event.preventDefault();
+
+          const { paymentIntent, error } = await stripe.confirmCardPayment(
+            clientSecret, {
+              payment_method: {
+                card: cardElement,
+              }
+            }
+          );
+
+          if (error) {
+            console.error('Payment failed:', error);
+          } else {
+            console.log('Payment successful (Response from Stripe):', paymentIntent);
+          }
+        });
+
+        // Fetch the payment intent client secret from the server
+        fetch('/create-payment-intent', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ amount: 1000 }) // Amount in cents
+        })
+        .then(response => response.json())
+        .then(data => {
+          clientSecret = data.clientSecret;
+        })
+        .catch(error => console.error('Error:', error));
+      });
+  </script>
+</body>
+</html>

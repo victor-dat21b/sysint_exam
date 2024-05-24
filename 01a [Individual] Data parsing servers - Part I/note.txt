@@ -1,0 +1,18 @@
+Python:
+Python skal altid bruge et eksternt modul såsom PyYaml til at læse yaml. De andre datatyper kan den læse med indbyggede moduler i python standard library.
+Løsning 1 var med pandas og andre, men to bruger standard moduler og så yaml ekstern som skal bruges!
+
+
+Node:
+fs: This is a built-in Node.js module and necessary for reading files.
+papaparse: This is an external library that simplifies CSV parsing.
+csv-parse: This is also an external library and part of the csv package that provides flexible CSV parsing capabilities.
+xml2js: This is an external library for converting XML to JavaScript objects.
+js-yaml: This is an external library for parsing YAML files.
+
+
+
+Overall noter:
+data_handling var dem jeg først havde lavet. Havde ikke researched packaged ordentligt dengang. Fik lavet en data_handling_solution2, hvor jeg har byttet nogle eksterne moduler
+ud med nogle der er indbyggede, som man bare skal implementere, for at mindske thirdparty dependencies. 
+Bruger node data_handling.js og py data_handling.py til at køre filerne.
