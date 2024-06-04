@@ -27,3 +27,9 @@ Creating the GraphQL Handler
 
 app.all('/graphql', createHandler({ schema }));
 Sets up a handler for all HTTP methods on the /graphql endpoint, using the defined schema.
+
+Queries:
+Queries are the read operations in GraphQL. They allow clients to request exactly the data they need, nothing more and nothing less.
+
+Mutations:
+Mutations are the write operations in GraphQL. They allow clients to modify data on the server and usually return the modified data.

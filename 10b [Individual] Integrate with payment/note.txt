@@ -2,11 +2,14 @@ Kør med node index.js.
 Gå til localhost:3000.
 
 Card number: 4242 4242 4242 4242
-Expiration date: Any future date
-CVC: Any 3-digit number
+Expiration date: Any future date (evt 02 / 33)
+CVC: Any 3-digit number (evt 323)
 Zip: 43444
 
 
 
 Til selv:
 Html siden bliver serveret via "/" endpointet. Den kalder derefter i sit script de andre endpoints. Der kører kun 1 server her i denne opgave.
+
+Brug også consolen til at se korrekt callback
+https://dashboard.stripe.com/test/payments

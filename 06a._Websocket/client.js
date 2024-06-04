@@ -11,7 +11,7 @@ ws.on('open', () => {
 });
 
 ws.on('message', (data) => {
-    const message = data.toString(); // Convert Buffer to string
+    const message = data.toString(); 
     console.log('Message from server:', message);
 });
 

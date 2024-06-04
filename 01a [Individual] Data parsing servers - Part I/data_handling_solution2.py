@@ -1,7 +1,7 @@
 import csv
 import json
 import xml.etree.ElementTree as ET
-import yaml
+import yaml #provided by the PyYAML package
 
 def get_myself_from_file(file_path):
     if file_path.endswith('.csv'):

@@ -14,21 +14,7 @@ app.get("/restFastAPI", async (req, res) => {
     const result = await response.json()
     res.send ({result}) 
 });
-/*
-app.get("/restFastAPI/:param", async (req, res) => {
-    const param = req.params.param;
-    const url = `127.0.0.1:8000/fastapi/${param}`; // Modify the URL with the parameter
 
-    try {
-        const response = await fetch(url);
-        const result = await response.json();
-        res.send({ result });
-    } catch (error) {
-        console.error(`Error fetching data: ${error.message}`);
-        res.status(500).send('Internal Server Error');
-    }
-});
-*/
 
 
 
@@ -131,6 +117,37 @@ app.get('/expressdata_csv', (req, res) => {
     res.status(200).send(jsonData);
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+app.get("/restFastAPI/:param", async (req, res) => {
+    const param = req.params.param;
+    const url = `127.0.0.1:8000/fastapi/${param}`; // Modify the URL with the parameter
+
+    try {
+        const response = await fetch(url);
+        const result = await response.json();
+        res.send({ result });
+    } catch (error) {
+        console.error(`Error fetching data: ${error.message}`);
+        res.status(500).send('Internal Server Error');
+    }
+});
+*/
 
 
 

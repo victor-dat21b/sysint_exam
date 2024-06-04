@@ -1,0 +1,9 @@
+Bruger python serveren som kalder node serveren og beder om filer.
+Start node og python i hver sin terminal
+Node app.js til at starte node projektet.
+
+Til python:
+poetry shell
+uvicorn main:app --reload
+
+FastAPI til python minder om express til node

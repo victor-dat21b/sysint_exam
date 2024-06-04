@@ -1,6 +1,6 @@
-// Client.js
-const express = require('express');
-const axios = require('axios');
+
+import express from 'express';
+import axios from 'axios'; //Kunne ikke få det til at virke med http modul, så brugte axios.
 const app = express();
 app.use(express.json());
 

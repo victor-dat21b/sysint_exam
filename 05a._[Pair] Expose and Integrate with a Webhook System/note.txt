@@ -1,0 +1,3 @@
+Start begge servere med node i hver sin terminal.
+Brug curl http commands fra docs dokumentet i en bash terminal.
+Subscribe til endpoints og ping server for at se om client er subscribed. Kan også unsubscripe. Http curl til serveren for at simulere en ny payment.

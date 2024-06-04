@@ -26,7 +26,7 @@ for row in mysql_cursor:
         "name": row["name"],
         "email": row["email"],
         "address": row["address"],
-        "car_id": row["car_id"],
+        "car_id": row["car_Id"],
     }
     mongo_collection.insert_one(transformed_data)
 

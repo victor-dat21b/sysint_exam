@@ -1,1 +1,4 @@
 Using Electradrive schema data which is from our DLS project.
+MongoDB compass. Login på localhost:27017.
+Hav workbench åben.
+Kør migrate.py scriptet.

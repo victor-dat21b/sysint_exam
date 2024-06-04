@@ -1,7 +1,7 @@
 //Efter Node.js version 18 behøver man ikke bruge dotenv package. Dette er nu en indbygget funktion i Node.js
 
 import express from 'express';
-import { Issuer } from 'openid-client';
+import { Issuer } from 'openid-client'; //openid-client is a server side OpenID Relying Party (RP, Client) OpenID Connect/OAuth2.0 specifications are implemented by openid-client.
 
 const app = express();
 
@@ -18,7 +18,7 @@ let client;
 })();
 
 app.get('/login', (req, res) => {
-  const authUrl = client.authorizationUrl({
+  const authUrl = client.authorizationUrl({ //client.authorizationUrl method generates an authorization URL based on the client configuration
     scope: 'openid profile email'
   });
   res.redirect(authUrl);

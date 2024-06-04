@@ -1,7 +1,6 @@
 import express from 'express';
 const app = express();
 
-app.use(express.static('public'));
 
 // Middleware to handle CORS
 app.use((req, res, next) => {

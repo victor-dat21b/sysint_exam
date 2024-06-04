@@ -6,3 +6,28 @@ DocFX gør at man kan hoste en side hvor man kan finde den dokumentation der er 
 
 Repository vi har lavet dokumentation på:
 https://github.com/dls-electradrive/CarStorageAPI
+
+
+Gå ind i mappen _site.
+Klik på index.html og gå live med liveserver.
+
+
+
+
+GhostDoc
+GhostDoc is a Visual Studio extension that helps developers create XML documentation comments more efficiently.Here's what you use GhostDoc for in a C# project:
+
+Generating XML Comments:
+Automatic Comment Generation: GhostDoc can automatically generate XML comments for methods, properties, classes, etc., 
+based on the method signatures, parameter names, and other contextual information.
+
+
+DocFX
+DocFX is an open-source documentation generation tool developed by Microsoft. 
+It is particularly powerful for generating static websites from documentation files written in Markdown. Here's what you use DocFX for in a C# project:
+
+Generating Documentation:
+
+API Documentation: DocFX can automatically generate API documentation from your C# code's XML comments. 
+This includes all public types and members with detailed information extracted from the XML comments.
+Conceptual Documentation: You can write conceptual documentation in Markdown, which can include tutorials, guides, and explanations about the project.
